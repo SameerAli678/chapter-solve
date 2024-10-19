@@ -284,16 +284,16 @@
 // }
 //  Question 05
 
-let English = prompt("English  marks ?");
-let Urdu = prompt("Urdu mraks ?");
-let Math = prompt("Math marks ?");
-let Totalmarks = 100;
-let Obtainedmarks = +English + +Urdu + +Math; 
-document.write(`subject Totalmarks Obtainedmarks percentage <hr>`);
-document.write(` <br> English ${Totalmarks} ${English} ${English}%  <hr> `);
-document.write(`  Urdu ${Totalmarks} ${Urdu} ${Urdu}% <hr>`);
-document.write(`Math ${Totalmarks} ${Math} ${Math}% <hr>`);
-document.write(`${Totalmarks * 3} ${Obtainedmarks} ${Obtainedmarks / 300 * 100}%`);
+// let English = prompt("English  marks ?");
+// let Urdu = prompt("Urdu mraks ?");
+// let Math = prompt("Math marks ?");
+// let Totalmarks = 100;
+// let Obtainedmarks = +English + +Urdu + +Math; 
+// document.write(`subject Totalmarks Obtainedmarks percentage <hr>`);
+// document.write(` <br> English ${Totalmarks} ${English} ${English}%  <hr> `);
+// document.write(`  Urdu ${Totalmarks} ${Urdu} ${Urdu}% <hr>`);
+// document.write(`Math ${Totalmarks} ${Math} ${Math}% <hr>`);
+// document.write(`${Totalmarks * 3} ${Obtainedmarks} ${Obtainedmarks / 300 * 100}%`);
 // compelete chapter 6
 //  ==========chapter 7===========
 // Question 01
