@@ -288,7 +288,7 @@
 // let Urdu = prompt("Urdu mraks ?");
 // let Math = prompt("Math marks ?");
 // let Totalmarks = 100;
-// let Obtainedmarks = +English + +Urdu + +Math; 
+// let Obtainedmarks = +English + +Urdu + +Math;
 // document.write(`subject Totalmarks Obtainedmarks percentage <hr>`);
 // document.write(` <br> English ${Totalmarks} ${English} ${English}%  <hr> `);
 // document.write(`  Urdu ${Totalmarks} ${Urdu} ${Urdu}% <hr>`);
@@ -297,4 +297,112 @@
 // compelete chapter 6
 //  ==========chapter 7===========
 // Question 01
+// let cityname = document.getElementById("cityname");
+// let massge = document.getElementById("massge");
 
+// function username() {
+//   if (cityname.value === "") return alert("Enter a city name");
+//   else {
+//     massge.innerHTML = ` well come to ${cityname.value}`;
+//   }
+
+//   cityname.value = " ";
+// }
+// Question 02
+// let gender = document.getElementById("gender")
+// let massge = document.getElementById("massge")
+//  function username() {
+//     if (gender.value === "") return alert("confrom your gender")
+//         else if (gender.value === "male"){ massge.innerHTML = `Good morning sir`}
+//     else if (gender.value === "female"){ massge.innerHTML = `Good Morning madam`}
+
+//   gender.value = " ";
+//  }
+// Question 03
+// let signal = document.getElementById("signal")
+// let massge = document.getElementById("massge")
+//    function usercolour() {
+//     if (signal.value === "") return alert("choose a signal colour")
+//         else if (signal.value === "Red"){massge.innerHTML = `${signal.value} :  must stop `}
+//         else if (signal.value === "Yellow"){massge.innerHTML = `${signal.value} : Ready to move `}
+//         else if (signal.value === "Green"){massge.innerHTML = `${signal.value} : Move now `}
+
+//     signal.value =  " "
+
+//    }
+// Question 04
+// let fuel = document.getElementById("fuel");
+// let massge = document.getElementById("massge");
+// function currentfuel() {
+//   if (fuel.value === "") return alert("Enter a current fuel ? ");
+//   else if (fuel.value <= 0.25)
+//     return (massge.innerHTML = `“Please refill the fuel in your car”`);
+//   else if (fuel.value > 0.25) return (massge.innerHTML = `Don't pour fuel`);
+// }
+// Question 05
+//  it  so easy because its not defined
+// Question 06
+
+let totalMarks = document.getElementById("totalMarks");
+let obtainMarks = document.getElementById("obtainMarks");
+let div = document.getElementById("marks");
+// let Marks = document.getElementById("Marks");
+// let Mark = document.getElementById("Mark");
+// let percentage = obtainMarksId.value/totalMarksId.value*100
+
+function marksSheet() {
+  const percentage = Math.round((obtainMarks.value / totalMarks.value) * 100);
+  console.log("🚀 ~ marksSheet ~ percentage:", typeof percentage);
+  const Values = [
+    { title: "Total Marks", value: totalMarks.value },
+    { title: "Obtained Marks", value: obtainMarks.value },
+    {
+      title: "Percentage",
+      value: percentage + "%",
+    },
+    {
+      title: "Grade",
+      value:
+        percentage <= 75
+          ? "F"
+          : percentage <= 80
+          ? "B"
+          : percentage <= 90
+          ? "A"
+          : "A+",
+    },
+    {
+      title: "Remarks",
+      value:
+        percentage <= 75
+          ? "Try Again"
+          : percentage <= 80
+          ? "Need Improvement"
+          : percentage <= 90
+          ? "Good Work"
+          : "Excellent Work",
+    },
+  ];
+  // || use for OR
+  // && use for And
+  if (!totalMarks.value || !obtainMarks.value)
+    return alert("fill tha all input");
+
+  for (let i = 0; i < Values.length; i++) {
+    div.innerHTML += `<h1>${Values[i].title}: ${Values[i].value}</h1>`;
+  }
+
+  //   Marks.innerHTML = ` Total marks ${totalMarksId.value}`;
+  //   Mark.innerHTML = `obtain marks ${obtainMarksId.value}`;
+
+  //  document.write(obtainMarksId.value/totalMarksId.value*100)
+
+  // else{ }
+  //   else { Marks.innerHTML = totalMarksId.value;}
+  //   if (obtainMarksId.value === "") return alert("please enter a obtained marks")
+  // else {Mark.innerHTML = obtainMarksId.value}
+  //    else if (condition) {
+
+  //    }
+  //  if (obtainMarksId/totalMarksId*100) return  obtainMarksId/totalMarksId*100
+}
