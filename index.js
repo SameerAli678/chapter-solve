@@ -1,21 +1,21 @@
-//  ===========chapter 1==========
+//  ===========chapter 1=============
 // alert
 // alert(`good website \n good done `)
-// compelete chapter 1.......
+//               ...........complete chapter 1...........
 // ============chapter 2==========
-// let name = "sameer ali"
+// let name = "`sameer ali"
 // alert(name);
 // let age = "17 year old"
 // alert(age);
-// let massge = "Hello world"
-// alert(massge);
+// let massage = "Hello world"
+// alert(massage);
 
 // let pizza = " pizza \n pizz \n piz \n pi \n p "
 // alert(pizza)
 // let email = "eexmple@gmail.com"
 // alert(email);
-// let massge2 ="A smarter way to learn JavaScript"
-// alert(massge2);
+// let massage2 ="A smarter way to learn JavaScript"
+// alert(massage2);
 
 // let sam = "Hi! iam sameer ali";
 // document.write(sam);
@@ -27,17 +27,17 @@
 
 // alert(img);
 // document.write(img);
-// compelete chapter 2.........
+// complete chapter 2.........
 //    =========chapter 3===========
 // let age = "i am 17
 
-// let massge = 1;
+// let massage = 1;
 
 // function show() {
-//   let sam = `you have visited this site ${massge++} times`;
+//   let sam = `you have visited this site ${massage++} times`;
 //   alert(sam);
-// alert(`You have visited this site  ${massge++}  times`)
-// console.log(`You have visited this site ${massge++} times`);
+// alert(`You have visited this site  ${massage++}  times`)
+// console.log(`You have visited this site ${massage++} times`);
 // }
 // let words = `<b> jhon Doe</b> ordered <b>5 T-shirt </b>(s) on <b>XYZ</b> clothing store`;
 // document.write(words);
@@ -73,7 +73,7 @@
 // let b = 5;
 // document.write(`sum of 3 and 5 is   ${a +b}`);
 // console.log(`sum of 3 and 5 is   ${a +b}`);
-//   Queation 02
+//   Question 02
 
 // let c = 3;
 // let d = 5;
@@ -110,7 +110,7 @@
 // let math = 5
 // if(i = 5){
 //     i++
-// }asle (
+// }else (
 //     i--
 // )
 // console.log(math);
@@ -293,7 +293,7 @@
 // document.write(` <br> English ${Totalmarks} ${English} ${English}%  <hr> `);
 // document.write(`  Urdu ${Totalmarks} ${Urdu} ${Urdu}% <hr>`);
 // document.write(`Math ${Totalmarks} ${Math} ${Math}% <hr>`);
-// document.write(`${Totalmarks * 3} ${Obtainedmarks} ${Obtainedmarks / 300 * 100}%`);
+// document.write(`${Totalmarks * 3} ${Obtainmarks} ${Obtainedmarks / 300 * 100}%`);
 // compelete chapter 6
 //  ==========chapter 7===========
 // Question 01
@@ -312,7 +312,7 @@
 // let gender = document.getElementById("gender")
 // let massge = document.getElementById("massge")
 //  function username() {
-//     if (gender.value === "") return alert("confrom your gender")
+//     if (gender.value === "") return alert("conform your gender")
 //         else if (gender.value === "male"){ massge.innerHTML = `Good morning sir`}
 //     else if (gender.value === "female"){ massge.innerHTML = `Good Morning madam`}
 
@@ -339,70 +339,104 @@
 //     return (massge.innerHTML = `“Please refill the fuel in your car”`);
 //   else if (fuel.value > 0.25) return (massge.innerHTML = `Don't pour fuel`);
 // }
-// Question 05
+// .....................Question 05 ......................
 //  it  so easy because its not defined
-// Question 06
+// .......................Question 06.....................
 
-let totalMarks = document.getElementById("totalMarks");
-let obtainMarks = document.getElementById("obtainMarks");
-let div = document.getElementById("marks");
-// let Marks = document.getElementById("Marks");
-// let Mark = document.getElementById("Mark");
-// let percentage = obtainMarksId.value/totalMarksId.value*100
+// let totalMarks = document.getElementById("totalMarks");
+// let obtainMarks = document.getElementById("obtainMarks");
+// let div = document.getElementById("marks");
 
-function marksSheet() {
-  const percentage = Math.round((obtainMarks.value / totalMarks.value) * 100);
-  console.log("🚀 ~ marksSheet ~ percentage:", typeof percentage);
-  const Values = [
-    { title: "Total Marks", value: totalMarks.value },
-    { title: "Obtained Marks", value: obtainMarks.value },
-    {
-      title: "Percentage",
-      value: percentage + "%",
-    },
-    {
-      title: "Grade",
-      value:
-        percentage <= 75
-          ? "F"
-          : percentage <= 80
-          ? "B"
-          : percentage <= 90
-          ? "A"
-          : "A+",
-    },
-    {
-      title: "Remarks",
-      value:
-        percentage <= 75
-          ? "Try Again"
-          : percentage <= 80
-          ? "Need Improvement"
-          : percentage <= 90
-          ? "Good Work"
-          : "Excellent Work",
-    },
-  ];
-  // || use for OR
-  // && use for And
-  if (!totalMarks.value || !obtainMarks.value)
-    return alert("fill tha all input");
+// function marksSheet() {
+//   const percentage = Math.round((obtainMarks.value / totalMarks.value) * 100);
+//   console.log("🚀 ~ marksSheet ~ percentage:", typeof percentage);
+//   const Values = [
+//     { title: "Total Marks", value: totalMarks.value },
+//     { title: "Obtained Marks", value: obtainMarks.value },
+//     {
+//       title: "Percentage",
+//       value: percentage + "%",
+//     },
+//     {
+//       title: "Grade",
+//       value:
+//         percentage <= 75
+//           ? "F"
+//           : percentage <= 80
+//           ? "B"
+//           : percentage <= 90
+//           ? "A"
+//           : "A+",
+//     },
+//     {
+//       title: "Remarks",
+//       value:
+//         percentage <= 75
+//           ? "Try Again"
+//           : percentage <= 80
+//           ? "Need Improvement"
+//           : percentage <= 90
+//           ? "Good Work"
+//           : "Excellent Work",
+//     },
+//   ];
+//   // || use for OR
+//   // && use for And
+//   if (!totalMarks.value || !obtainMarks.value)
+//     return alert("fill tha all input");
 
-  for (let i = 0; i < Values.length; i++) {
-    div.innerHTML += `<h1>${Values[i].title}: ${Values[i].value}</h1>`;
-  }
+//   for (let i = 0; i < Values.length; i++) {
+//     div.innerHTML += `<h1>${Values[i].title}: ${Values[i].value}</h1>`;
+//   }
+// }
+//             ..................Question 04.................
+// var a = -200;
+// ++a + 1;Z
+// var b = 1;
 
-  //   Marks.innerHTML = ` Total marks ${totalMarksId.value}`;
-  //   Mark.innerHTML = `obtain marks ${obtainMarksId.value}`;
+// let c = a + b;
+// a = c - a;
+// b = c - b;
 
-  //  document.write(obtainMarksId.value/totalMarksId.value*100)
+// console.log("🚀 ~ a:", a);
+// console.log("🚀 ~ b:", b);
 
-  // else{ }
-  //   else { Marks.innerHTML = totalMarksId.value;}
-  //   if (obtainMarksId.value === "") return alert("please enter a obtained marks")
-  // else {Mark.innerHTML = obtainMarksId.value}
-  //    else if (condition) {
+// var a = 3 +2
 
-  //    }
-  //  if (obtainMarksId/totalMarksId*100) return  obtainMarksId/totalMarksId*100
-}
+//  var b = 5-2
+//  console.log("b" b);
+
+//  let game = [ 1,2,3,4,5,6,7,8,9,10]
+//  let user = prompt("game")
+
+//  for (let index = 0; index < game.length; index++) {
+// prompt("guesses the number")
+// }
+// if (user = game ) return document.write(thanks)
+
+//  ===================== WORKING =============
+//  let ac = "sameer"
+// console.log(a.reduce);
+// let sam = [3,4,5,6]
+// let a = sam.filter((value  )=>{
+//     return value <= 5
+//      })
+
+//    console.log(a);
+
+// let sam = [3, 4, 5, 6 ,"sa" ]
+// //  console.log(sam);
+//  let a = sam.map ( (value )=> {
+
+// // console.log(value );
+// return value + 1;
+
+//  })
+//  console.log(a);
+
+const word = prompt("Enter a word");
+const reverse = word.split("").reverse().join("");
+
+if (word.toLocaleLowerCase() == reverse.toLocaleLowerCase())
+  console.log("reverse:", reverse, "&", "Word:", word, "Both are same");
+else console.log("reverse:", reverse, "&", "Word:", word, "Both are not same");
