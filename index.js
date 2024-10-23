@@ -440,3 +440,4 @@ const reverse = word.split("").reverse().join("");
 if (word.toLocaleLowerCase() == reverse.toLocaleLowerCase())
   console.log("reverse:", reverse, "&", "Word:", word, "Both are same");
 else console.log("reverse:", reverse, "&", "Word:", word, "Both are not same");
+  //  ======================= working ====================
