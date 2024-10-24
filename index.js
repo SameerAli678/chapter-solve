@@ -389,30 +389,6 @@
 //     div.innerHTML += `<h1>${Values[i].title}: ${Values[i].value}</h1>`;
 //   }
 // }
-//             ..................Question 04.................
-// var a = -200;
-// ++a + 1;Z
-// var b = 1;
-
-// let c = a + b;
-// a = c - a;
-// b = c - b;
-
-// console.log("🚀 ~ a:", a);
-// console.log("🚀 ~ b:", b);
-
-// var a = 3 +2
-
-//  var b = 5-2
-//  console.log("b" b);
-
-//  let game = [ 1,2,3,4,5,6,7,8,9,10]
-//  let user = prompt("game")
-
-//  for (let index = 0; index < game.length; index++) {
-// prompt("guesses the number")
-// }
-// if (user = game ) return document.write(thanks)
 
 //  ===================== WORKING =============
 //  let ac = "sameer"
@@ -434,10 +410,95 @@
 //  })
 //  console.log(a);
 
-const word = prompt("Enter a word");
-const reverse = word.split("").reverse().join("");
+// const word = prompt("Enter a word");
+// const reverse = word.split("").reverse().join("");
 
-if (word.toLocaleLowerCase() == reverse.toLocaleLowerCase())
-  console.log("reverse:", reverse, "&", "Word:", word, "Both are same");
-else console.log("reverse:", reverse, "&", "Word:", word, "Both are not same");
-  //  ======================= working ====================
+// if (word.toLocaleLowerCase() == reverse.toLocaleLowerCase())
+//   console.log("reverse:", reverse, "&", "Word:", word, "Both are same");
+// else console.log("reverse:", reverse, "&", "Word:", word, "Both are not same");
+// ................2 ...............
+// var a = -200;
+// ++a + 1;Z
+// var b = 1;
+
+// let c = a + b;
+// a = c - a;
+// b = c - b;
+
+// console.log("🚀 ~ a:", a);
+// console.log("🚀 ~ b:", b);
+//  ======================= working ====================
+//  ..........................Question 07..................
+// const game = Math.floor(Math.random() * 100);
+
+// console.log("🚀 ~ game :", game);
+
+// const user = prompt("guesses tha number");
+// if (game == user) {
+//   console.log("🚀 ~ game :", " “Bingo! Correct answer” ");
+// } else {
+//   console.log("🚀 ~ game :", "“Close enough to the correct answer” ");
+// }
+//  ............Question 08 ..............
+
+// const user = prompt("") % 3;
+// console.log("🚀 ~ user:", user);
+
+// if (user === 0) {
+//   console.log("🚀 ~ user:", "The number is divisible by 3.")
+
+// } else {
+//   console.log("🚀 ~ user:","The number is not divisible by 3.");
+// }
+// ......................Question 09....................
+// const Temperature = document.getElementById("Temperature")
+// const marks = document.getElementById("marks")
+// function check() {
+//   if (Temperature.value >= 40 ) {
+//     marks.innerHTML = `${Temperature.value} “It is too hot outside.”`
+
+//   }else if(Temperature.value >= 30 ){
+//     marks.innerHTML = `${Temperature.value} “The Weather today is Normal.`
+//   }else if (Temperature.value >= 20){
+//     marks.innerHTML = `${Temperature.value} “Today’s Weather is cool.”`
+//   } else if (Temperature.value >=10){
+//     marks.innerHTML = `${Temperature.value} “OMG! Today’s weather is so Cool.”`
+//    }
+
+//   Temperature.value = " "
+// }
+
+// let Temperature;
+// switch (new Date().getTemperature()) {
+//   case 40:
+//     Temperature = "hot";
+//     break;
+//   case 30:
+//     Temperature = "normal";
+//     break;
+//   case 20:
+//     Temperature = "cool";
+//     break;
+//   case 10:
+//     Temperature = "so cool";
+//     break;
+// }
+// document.getElementById("temperature").innerHTML = " temperature" + Temperature;
+const T = Math.round(Math.random() * 40);
+console.log("🚀 ~ T:", T);
+switch (T) {
+  case T == 40:
+    console.log("It is too hot outside.");
+    break;
+  case T == 30:
+    console.log("The Weather today is Normal.");
+    break;
+  case T == 20:
+    console.log("Today’s Weather is cool.");
+    break;
+  case T == 10:
+    console.log("OMG! Today’s weather is so Cool.");
+    break;
+  default:
+    console.log("Cools");
+}
