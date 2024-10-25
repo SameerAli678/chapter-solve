@@ -450,7 +450,7 @@
 // } else {
 //   console.log("🚀 ~ user:","The number is not divisible by 3.");
 // }
-// ......................Question 09....................
+// ......................Question 10....................
 // const Temperature = document.getElementById("Temperature")
 // const marks = document.getElementById("marks")
 // function check() {
@@ -484,21 +484,70 @@
 //     break;
 // }
 // document.getElementById("temperature").innerHTML = " temperature" + Temperature;
-const T = Math.round(Math.random() * 40);
-console.log("🚀 ~ T:", T);
-switch (T) {
-  case T == 40:
-    console.log("It is too hot outside.");
-    break;
-  case T == 30:
-    console.log("The Weather today is Normal.");
-    break;
-  case T == 20:
-    console.log("Today’s Weather is cool.");
-    break;
-  case T == 10:
-    console.log("OMG! Today’s weather is so Cool.");
-    break;
-  default:
-    console.log("Cools");
+// const T = +prompt("Enter the temperature");
+// console.log("🚀 ~ T:", T);
+// switch (T) {
+//   case 40:
+//     console.log("It is too hot outside.");
+//     break;
+//   case 30:
+//     console.log("The Weather today is Normal.");
+//     break;
+//   case 20:
+//     console.log("Today’s Weather is cool.");
+//     break;
+//   case 10:
+//     console.log("OMG! Today’s weather is so Cool.");
+//   default:
+//     console.log("write temp");
+//     break;
+// }
+// ''''''''''''''''''''''''chat gpt'''''''''''''''''''''''''''
+// const T = Number(prompt("Enter the temperature")); // Convert input to a number
+
+// switch (T) {
+//   case 40:
+//     console.log("It is too hot outside.");
+//     break;
+//   case 30:
+//     console.log("The Weather today is Normal.");
+//     break;
+//   case 20:
+//     console.log("Today’s Weather is cool.");
+//     break;
+//   case 10:
+//     console.log("OMG! Today’s weather is so Cool.");
+//     break; // Add break here
+//   default:
+//     console.log("Write a valid temperature.");
+//     break;
+// }
+// .....................Question no 09..................
+//  let user = prompt("Enter a number")%2
+//    if (user == 0) {
+//       console.log( "even number");
+//     }else if (user == 1){
+//       console.log("odd number");
+
+//     }
+// ..........................Question no 11.....................
+
+//  let calculator = document.getElementById("Calculator")
+//  let click = document.getElementById("click")
+// function button(params) {
+
+// }
+const btn = document.getElementById("btns");
+const screen = document.getElementById("calculator");
+const clicked = (value = "") => {
+  if (value == "+") plus(true);
+  screen.innerHTML += value;
+};
+
+const plus = (isPlus = false) => {
+  
+};
+
+for (let i = 0; i < 10; i++) {
+  btn.innerHTML += `<button id=${i} value=${i} onclick='clicked(this.value)'>${i}</button>`;
 }
