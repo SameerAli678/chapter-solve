@@ -537,17 +537,43 @@
 // function button(params) {
 
 // }
-const btn = document.getElementById("btns");
-const screen = document.getElementById("calculator");
-const clicked = (value = "") => {
-  if (value == "+") plus(true);
-  screen.innerHTML += value;
-};
+// const btn = document.getElementById("btns");
+// const screen = document.getElementById("calculator");
+// const clicked = (value = "") => {
+//   if (value == "+") plus(true);
+//   screen.innerHTML += value;
+// };
 
-const plus = (isPlus = false) => {
+// const plus = (isPlus = false) => {
   
-};
+// };
 
-for (let i = 0; i < 10; i++) {
-  btn.innerHTML += `<button id=${i} value=${i} onclick='clicked(this.value)'>${i}</button>`;
-}
+// for (let i = 0; i < 10; i++) {
+//   btn.innerHTML += `<button id=${i} value=${i} onclick='clicked(this.value)'>${i}</button>`;
+// }    
+//             =======================chapter no 12-13=====================
+//  ........................Question no 01....................
+let changetonumber = document.getElementById("changetonumber")
+let button = document.getElementById("button")
+let div = document.getElementById("print")
+
+  function number() { 
+    if (changetonumber.value  === "") {
+      alert("Enter a alphabet")
+      
+    }else if (changetonumber.value  === "A"){
+        console.log(65);
+        }else if(changetonumber.value  === "Z"){
+          console.log(90);
+          
+        }else if(changetonumber.value  === "a"){
+          console.log(97);
+          
+        }else if(changetonumber.value  === "z"){
+          console.log(122);
+          
+        }
+    
+    
+    
+  } 
