@@ -545,35 +545,61 @@
 // };
 
 // const plus = (isPlus = false) => {
-  
+
 // };
 
 // for (let i = 0; i < 10; i++) {
 //   btn.innerHTML += `<button id=${i} value=${i} onclick='clicked(this.value)'>${i}</button>`;
-// }    
+// }
 //             =======================chapter no 12-13=====================
-//  ........................Question no 01....................
-let changetonumber = document.getElementById("changetonumber")
-let button = document.getElementById("button")
-let div = document.getElementById("print")
+//                     ........................Question no 01....................
+// let changetonumber = document.getElementById("changetonumber")
+// let button = document.getElementById("button")
+// let div = document.getElementById("print")
 
-  function number() { 
-    if (changetonumber.value  === "") {
-      alert("Enter a alphabet")
-      
-    }else if (changetonumber.value  === "A"){
-        console.log(65);
-        }else if(changetonumber.value  === "Z"){
-          console.log(90);
-          
-        }else if(changetonumber.value  === "a"){
-          console.log(97);
-          
-        }else if(changetonumber.value  === "z"){
-          console.log(122);
-          
-        }
-    
-    
-    
-  } 
+//   function number() {
+//     if (changetonumber.value  === "") {
+//       alert("Enter a alphabet")
+
+//     }else if (changetonumber.value  === "A"){
+//         console.log(65);
+//         }else if(changetonumber.value  === "Z"){
+//           console.log(90);
+
+//         }else if(changetonumber.value  === "a"){
+//           console.log(97);
+
+//         }else if(changetonumber.value  === "z"){
+//           console.log(122);
+
+//         }
+
+//   }
+//                 ......................Question no 02 .....................
+// let user = document.getElementById("user");
+// let button = document.getElementById("button");
+
+// function number() {
+// const v = user.value;
+// const n1 = v[0];
+// const n2 = v[1];
+// const n1 = 3;
+// const n2 = 4;
+
+// n1 < n2 ? n2 : n1;
+// console.log("🚀 ~ number ~ n1 < n2 ? n2 : n1;:", n1 < n2 ? n2 : n1);
+// console.log("🚀 ~ v:", v);
+// console.log("🚀 ~ number1:", n1);
+// console.log("🚀 ~ number2:", n2);
+
+// .............................Question no 03.................
+// let user = document.getElementById("user");
+// let marks = document.getElementById("marks");
+// function number() {
+//   const u = user.value;
+//   u[0] === "-"
+//     ? console.log("Negative", u)
+//     : u[0] === "0"
+//     ? console.log("This value is Zero", u)
+//     : console.log("Positive", u);
+// }
