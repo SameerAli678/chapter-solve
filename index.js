@@ -73,7 +73,7 @@
 // let b = 5;
 // document.write(`sum of 3 and 5 is   ${a +b}`);
 // console.log(`sum of 3 and 5 is   ${a +b}`);
-//   Question 02
+//   ...................Question 02....................
 
 // let c = 3;
 // let d = 5;
@@ -117,7 +117,7 @@
 
 // }
 // console.log(number);
-//   Question 03
+//   ......................Question 03.......................
 // let  a;
 // document.write(`“Value after variable declaration is: ${a} <br>`);
 // a=5;
@@ -132,7 +132,7 @@
 // document.write(`“The remainder is : ${a}”`)
 // let ticket = 600;
 // document.write(`Total cost to buy ${5} tickets to a movie is : ${ticket*5} PKR`)
-// Question 06 (a)
+//..............................Question 05 (a)................................
 // let a = 4;
 // document.write(`
 //     Table of 4 <br>;
@@ -146,7 +146,7 @@
 //              4x8 = ${a * 8}<br>
 //               4x9 = ${a * 9}<br>
 //                4x10 = ${a * 10}<br>`);
-// Question 05 (b)
+// ............................Question 05 (b).........................
 
 // function showtable() {
 //   let number = prompt(`Enter a number `);
@@ -157,7 +157,7 @@
 //   }
 // }
 // // showtable();
-// Question 06
+// .......................Question 06.........................
 //  var f = prompt();
 //  var c = (f - 32)* 5/9;
 //  document.write(`${f} F is   ${c} C <br>`)
@@ -166,7 +166,7 @@
 //  document.write(`${c} C is   ${f} F <br>`)
 
 //  console.log(f , c);
-//    Question 07
+//  ..................Question 07....................
 // let item_1 = 650;
 // let item_2 = 100;
 // let charges = 100;
@@ -176,14 +176,14 @@
 //       Quantity of item_1 is ${Quantity_item_1} <br>
 //        Price of item 2 is ${item_2} <br>
 //        Quantity of item_2 is ${Quantity_item_2} <br>
-//        Shiping charges ${charges} <br>
+//        Shipping charges ${charges} <br>
 //   Total cost of your order is ${
 //     item_1 * Quantity_item_1 + item_2 * Quantity_item_2 + charges
 //   } ..`);
 //   Question 08
 
-// let Total_marks = prompt("Emter a toatl marks ?")
-// let Marks_obtained = prompt( "Enetr a Marks obtained ?")
+// let Total_marks = prompt("Enter a total marks ?")
+// let Marks_obtained = prompt( "Enter a Marks obtained ?")
 // let multiply = 100;
 // document.write(`Total marks : ${Total_marks} <br>
 //     Marks_obtained : ${Marks_obtained} <br>
@@ -220,9 +220,9 @@
 
 // let birthYear = prompt("Enter Your Brith Year");
 // let currentYear = new Date().getUTCFullYear();
-// compelete chapter 5
-//   ===========chapter 6 =============
-// Question 01
+// complete chapter 5
+//   ==============================chapter 6 =============================
+// ........................Question 01.................
 // let Result;
 // Result = 10;
 // document.write(`Result: <br>`);
@@ -252,7 +252,7 @@
 // document.write(`Tha value of Result-- is :${Result} <br>`)
 // Result--;
 // document.write(`now the value is : ${Result}`)
-// Question 02
+// ..........................Question 02.................
 
 // let a = 2;
 // let b = 1;
@@ -266,26 +266,26 @@
 //  console.log( Result( a,b));
 
 //  document.write(Result(a,b))
-// Question 03
+// ....................Question 03....................
 // const userid = document.getElementById("userid");
-// const massge = document.getElementById("massge");
+// const massage = document.getElementById("massage");
 // function username() {
-//   if (userid.value === "") return alert("Enter a massge");
-//   massge.innerHTML = `Hi ${userid.value}`;
+//   if (userid.value === "") return alert("Enter a massage");
+//   massage.innerHTML = `Hi ${userid.value}`;
 // }
-// Question 04
+// ........................Question 04.......................
 // const user = document.getElementById("user");
-// const massge = document.getElementById("massge");
+// const massage = document.getElementById("massage");
 // function usernumber() {
-//   if (user.value === "") return alert("Enter a massge");
+//   if (user.value === "") return alert("Enter a massage");
 //   else {
-//     massge.innerHTML = ` ${user.value + 5}`;
+//     massage.innerHTML = ` ${user.value + 5}`;
 //   }
 // }
-//  Question 05
+//  ..................Question 05........................
 
 // let English = prompt("English  marks ?");
-// let Urdu = prompt("Urdu mraks ?");
+// let Urdu = prompt("Urdu marks ?");
 // let Math = prompt("Math marks ?");
 // let Totalmarks = 100;
 // let Obtainedmarks = +English + +Urdu + +Math;
@@ -293,51 +293,51 @@
 // document.write(` <br> English ${Totalmarks} ${English} ${English}%  <hr> `);
 // document.write(`  Urdu ${Totalmarks} ${Urdu} ${Urdu}% <hr>`);
 // document.write(`Math ${Totalmarks} ${Math} ${Math}% <hr>`);
-// document.write(`${Totalmarks * 3} ${Obtainmarks} ${Obtainedmarks / 300 * 100}%`);
-// compelete chapter 6
-//  ==========chapter 7===========
+// document.write(`${Totalmarks * 3} ${Obtainedmarks} ${Obtainedmarks / 300 * 100}%`);
+// '''''''''''''''''''''''complete chapter 6'''''''''''''''''''''''''''''
+//  =======================chapter 7==========================
 // Question 01
 // let cityname = document.getElementById("cityname");
-// let massge = document.getElementById("massge");
+// let massage = document.getElementById("massage");
 
 // function username() {
 //   if (cityname.value === "") return alert("Enter a city name");
 //   else {
-//     massge.innerHTML = ` well come to ${cityname.value}`;
+//     massage.innerHTML = ` well come to ${cityname.value}`;
 //   }
 
 //   cityname.value = " ";
 // }
 // Question 02
 // let gender = document.getElementById("gender")
-// let massge = document.getElementById("massge")
+// let massage = document.getElementById("massage")
 //  function username() {
 //     if (gender.value === "") return alert("conform your gender")
-//         else if (gender.value === "male"){ massge.innerHTML = `Good morning sir`}
-//     else if (gender.value === "female"){ massge.innerHTML = `Good Morning madam`}
+//         else if (gender.value === "male"){ massage.innerHTML = `Good morning sir`}
+//     else if (gender.value === "female"){ massage.innerHTML = `Good Morning madam`}
 
 //   gender.value = " ";
 //  }
 // Question 03
 // let signal = document.getElementById("signal")
-// let massge = document.getElementById("massge")
+// let massage = document.getElementById("massage")
 //    function usercolour() {
 //     if (signal.value === "") return alert("choose a signal colour")
-//         else if (signal.value === "Red"){massge.innerHTML = `${signal.value} :  must stop `}
-//         else if (signal.value === "Yellow"){massge.innerHTML = `${signal.value} : Ready to move `}
-//         else if (signal.value === "Green"){massge.innerHTML = `${signal.value} : Move now `}
+//         else if (signal.value === "Red"){massage.innerHTML = `${signal.value} :  must stop `}
+//         else if (signal.value === "Yellow"){massage.innerHTML = `${signal.value} : Ready to move `}
+//         else if (signal.value === "Green"){massage.innerHTML = `${signal.value} : Move now `}
 
 //     signal.value =  " "
 
 //    }
 // Question 04
 // let fuel = document.getElementById("fuel");
-// let massge = document.getElementById("massge");
+// let massage = document.getElementById("massage");
 // function currentfuel() {
 //   if (fuel.value === "") return alert("Enter a current fuel ? ");
 //   else if (fuel.value <= 0.25)
-//     return (massge.innerHTML = `“Please refill the fuel in your car”`);
-//   else if (fuel.value > 0.25) return (massge.innerHTML = `Don't pour fuel`);
+//     return (massage.innerHTML = `“Please refill the fuel in your car”`);
+//   else if (fuel.value > 0.25) return (massage.innerHTML = `Don't pour fuel`);
 // }
 // .....................Question 05 ......................
 //  it  so easy because its not defined
@@ -349,7 +349,6 @@
 
 // function marksSheet() {
 //   const percentage = Math.round((obtainMarks.value / totalMarks.value) * 100);
-//   console.log("🚀 ~ marksSheet ~ percentage:", typeof percentage);
 //   const Values = [
 //     { title: "Total Marks", value: totalMarks.value },
 //     { title: "Obtained Marks", value: obtainMarks.value },
@@ -424,31 +423,18 @@
 // let c = a + b;
 // a = c - a;
 // b = c - b;
-
-// console.log("🚀 ~ a:", a);
-// console.log("🚀 ~ b:", b);
 //  ======================= working ====================
 //  ..........................Question 07..................
 // const game = Math.floor(Math.random() * 100);
-
-// console.log("🚀 ~ game :", game);
-
 // const user = prompt("guesses tha number");
 // if (game == user) {
-//   console.log("🚀 ~ game :", " “Bingo! Correct answer” ");
 // } else {
-//   console.log("🚀 ~ game :", "“Close enough to the correct answer” ");
 // }
 //  ............Question 08 ..............
 
 // const user = prompt("") % 3;
-// console.log("🚀 ~ user:", user);
-
 // if (user === 0) {
-//   console.log("🚀 ~ user:", "The number is divisible by 3.")
-
 // } else {
-//   console.log("🚀 ~ user:","The number is not divisible by 3.");
 // }
 // ......................Question 10....................
 // const Temperature = document.getElementById("Temperature")
@@ -485,7 +471,6 @@
 // }
 // document.getElementById("temperature").innerHTML = " temperature" + Temperature;
 // const T = +prompt("Enter the temperature");
-// console.log("🚀 ~ T:", T);
 // switch (T) {
 //   case 40:
 //     console.log("It is too hot outside.");
@@ -587,11 +572,6 @@
 // const n2 = 4;
 
 // n1 < n2 ? n2 : n1;
-// console.log("🚀 ~ number ~ n1 < n2 ? n2 : n1;:", n1 < n2 ? n2 : n1);
-// console.log("🚀 ~ v:", v);
-// console.log("🚀 ~ number1:", n1);
-// console.log("🚀 ~ number2:", n2);
-
 // .............................Question no 03.................
 // let user = document.getElementById("user");
 // let marks = document.getElementById("marks");
@@ -603,3 +583,40 @@
 //     ? console.log("This value is Zero", u)
 //     : console.log("Positive", u);
 // }
+//    .........................Question no 04....................
+
+// let user = prompt("");
+// let vowel = `e a i o u`;
+// console.log();
+
+// vowel.includes(user)
+//   ? console.log(`This is vowel "${user}"`)
+//   : console.log("This is not a vowel");
+// .....................Question no 05.................
+//    """"""""""""""""For integer"""""""""""""""""""
+// let user = +prompt("Enter the password");
+// const password = 2345;
+// user == ""
+//   ? alert("please! Enter the password")
+//   : user === password
+//   ? alert("correct! password")
+//   : alert("Incorrect! password");
+//   """"""""""""""""For string"""""""""""""""
+// let user = prompt("Enter the password");
+// const password = "2345";
+// user === ""
+//   ? alert("please! Enter the password")
+//   : user === password
+//   ? alert("correct! password")
+//   : alert("Incorrect! password");
+
+//   ..................Question no 06.....................
+// var greeting;
+//  const hour = 13;
+// if (hour <= 18) {
+// greeting = "Good day";
+
+// }else {
+// greeting = "Good evening";
+// }
+//  console.log(greeting);
