@@ -620,3 +620,22 @@
 // greeting = "Good evening";
 // }
 //  console.log(greeting);
+    // ====================chapter no 26-30======================
+    // ..................Question no 01.....................
+    // let user = +prompt("Enter a number in positive")
+    //  console.log("🚀 ~ number:", user)
+    //  console.log("🚀 ~ roundoff:",Math.round(user))
+    //  console.log("🚀 ~ floor:",Math.floor(user))
+    //  console.log("🚀 ~ ceil:",Math.ceil(user))
+    //  .......................Question no 02.........................
+    // let user = +prompt("Enter a number in negative")
+    //  console.log("🚀 ~ number:", user)
+    //  console.log("🚀 ~ roundoff:",Math.round(user))
+    //  console.log("🚀 ~ floor:",Math.floor(user))
+    //  console.log("🚀 ~ ceil:",Math.ceil(user))
+
+   
+     
+     
+     
+    
