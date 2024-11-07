@@ -620,22 +620,151 @@
 // greeting = "Good evening";
 // }
 //  console.log(greeting);
-    // ====================chapter no 26-30======================
-    // ..................Question no 01.....................
-    // let user = +prompt("Enter a number in positive")
-    //  console.log("🚀 ~ number:", user)
-    //  console.log("🚀 ~ roundoff:",Math.round(user))
-    //  console.log("🚀 ~ floor:",Math.floor(user))
-    //  console.log("🚀 ~ ceil:",Math.ceil(user))
-    //  .......................Question no 02.........................
-    // let user = +prompt("Enter a number in negative")
-    //  console.log("🚀 ~ number:", user)
-    //  console.log("🚀 ~ roundoff:",Math.round(user))
-    //  console.log("🚀 ~ floor:",Math.floor(user))
-    //  console.log("🚀 ~ ceil:",Math.ceil(user))
+// ====================chapter no 26-30======================
+// ..................Question no 01.....................
+// let user = +prompt("Enter a number in positive")
+//  console.log("🚀 ~ number:", user)
+//  console.log("🚀 ~ roundoff:",Math.round(user))
+//  console.log("🚀 ~ floor:",Math.floor(user))
+//  console.log("🚀 ~ ceil:",Math.ceil(user))
+//  .......................Question no 02.........................
+// let user = +prompt("Enter a number in negative")
+//  console.log("🚀 ~ number:", user)
+//  console.log("🚀 ~ roundoff:",Math.round(user))
+//  console.log("🚀 ~ floor:",Math.floor(user))
+//  console.log("🚀 ~ ceil:",Math.ceil(user))
+// .....................Question no 03...................
+// let user = +prompt("Enter a number")
+// console.log("🚀 ~ user:", -user)
+// ...................Question no 04.....................
+// let dice = Math.floor(Math.random()*6+1)
+// console.log("🚀 ~ random dice value :", dice )
+// .......................Question no 05.....................
+// let coin = Math.floor(Math.random() * 2 + 1);
+// console.log(coin);
 
-   
-     
+// coin === 2
+//   ? console.log("random coin value : " + "heads")
+//   : console.log("random coin value : " + "Tails");
+//         ......................Question no 06.....................
+    // let show = Math.floor(Math.random()*100)
+    // console.log("🚀 ~ random number between 1 and 100 :", show)
+    // .................Question no 08............... 
+    // let user = Math.floor(Math.random()*20 +1 ) 
+    // document.write("🚀 ~ user:", user)
+    // user <=10 ? alert("good boy"):alert("try again")
+
+    // console.log("🚀 ~ user:", user)
+    // ==============================chapter no 31-34=========================
+    // ...................Question no 01.......................
+    // let time = new Date
+    // console.log(time);
+    // ......................Question no 02....................
+    //  let time  = new Date()
+    //  let month = time.getMonth() 
+    //  switch(month) {
+    //     case 0:
+    //       console.log("January");
+    //       break;
+    //     case 1:
+    //       console.log("February");
+    //       break;
+    //     case 2:
+    //       console.log("March");
+    //       break;
+    //     case 3:
+    //       console.log("April");
+    //       break;
+    //     case 4:
+    //       console.log("May");
+    //       break;
+    //     case 5:
+    //       console.log("June");
+    //       break;
+    //     case 6:
+    //       console.log("July");
+    //       break;
+    //     case 7:
+    //       console.log("August");
+    //       break;
+    //     case 8:
+    //       console.log("September");
+    //       break;
+    //     case 9:
+    //       console.log("October");
+    //       break;
+    //     case 10:
+    //       console.log("November");
+    //       break;
+    //     case 11:
+    //       console.log("December");
+    //       break;
+    //     default:
+    //       console.log("Invalid month");
+    //   }
+    //   console.log( "again");
+    //   if (month === 0) {
+    //     console.log("January");
+    //   } else if (month === 1) {
+    //     console.log("February");
+    //   } else if (month === 2) {
+    //     console.log("March");
+    //   } else if (month === 3) {
+    //     console.log("April");
+    //   } else if (month === 4) {
+    //     console.log("May");
+    //   } else if (month === 5) {
+    //     console.log("June");
+    //   } else if (month === 6) {
+    //     console.log("July");
+    //   } else if (month === 7) {
+    //     console.log("August");
+    //   } else if (month === 8) {
+    //     console.log("September");
+    //   } else if (month === 9) {
+    //     console.log("October");
+    //   } else if (month === 10) {
+    //     console.log("November");
+    //   } else if (month === 11) {
+    //     console.log("December");
+    //   } else {
+    //     console.log("Invalid month");
+    //   }
+      
+    //  console.log(month);
+    //   ................................Question no 03....................
+//     let time = new Date();
+//     let days = time.getDay();
+
+// if (days === 1) {
+//     console.log("Monday");  
+// } else if (days === 2) {
+//     console.log("Tuesday"); 
+// } else if (days === 3) {
+//     console.log("Wednesday"); 
+// } else if (days === 4) {
+//     console.log("Thursday"); 
+// } else if (days === 5) {
+//     console.log("Friday"); 
+// } else if (days === 6) {
+//     console.log("Saturday"); 
+// } else if (days === 7) {
+//     console.log("Sunday"); 
+// }
+//     console.log(days);
+// ......................Question no 04.....................
+
+    
      
      
     
+
+    
+   
+    
+
+    
+    
+   
+    
+ 
