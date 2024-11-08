@@ -647,124 +647,234 @@
 //   ? console.log("random coin value : " + "heads")
 //   : console.log("random coin value : " + "Tails");
 //         ......................Question no 06.....................
-    // let show = Math.floor(Math.random()*100)
-    // console.log("🚀 ~ random number between 1 and 100 :", show)
-    // .................Question no 08............... 
-    // let user = Math.floor(Math.random()*20 +1 ) 
-    // document.write("🚀 ~ user:", user)
-    // user <=10 ? alert("good boy"):alert("try again")
+// let show = Math.floor(Math.random()*100)
+// console.log("🚀 ~ random number between 1 and 100 :", show)
+// .................Question no 08...............
+// let user = Math.floor(Math.random()*20 +1 )
+// document.write("🚀 ~ user:", user)
+// user <=10 ? alert("good boy"):alert("try again")
 
-    // console.log("🚀 ~ user:", user)
-    // ==============================chapter no 31-34=========================
-    // ...................Question no 01.......................
-    // let time = new Date
-    // console.log(time);
-    // ......................Question no 02....................
-    //  let time  = new Date()
-    //  let month = time.getMonth() 
-    //  switch(month) {
-    //     case 0:
-    //       console.log("January");
-    //       break;
-    //     case 1:
-    //       console.log("February");
-    //       break;
-    //     case 2:
-    //       console.log("March");
-    //       break;
-    //     case 3:
-    //       console.log("April");
-    //       break;
-    //     case 4:
-    //       console.log("May");
-    //       break;
-    //     case 5:
-    //       console.log("June");
-    //       break;
-    //     case 6:
-    //       console.log("July");
-    //       break;
-    //     case 7:
-    //       console.log("August");
-    //       break;
-    //     case 8:
-    //       console.log("September");
-    //       break;
-    //     case 9:
-    //       console.log("October");
-    //       break;
-    //     case 10:
-    //       console.log("November");
-    //       break;
-    //     case 11:
-    //       console.log("December");
-    //       break;
-    //     default:
-    //       console.log("Invalid month");
-    //   }
-    //   console.log( "again");
-    //   if (month === 0) {
-    //     console.log("January");
-    //   } else if (month === 1) {
-    //     console.log("February");
-    //   } else if (month === 2) {
-    //     console.log("March");
-    //   } else if (month === 3) {
-    //     console.log("April");
-    //   } else if (month === 4) {
-    //     console.log("May");
-    //   } else if (month === 5) {
-    //     console.log("June");
-    //   } else if (month === 6) {
-    //     console.log("July");
-    //   } else if (month === 7) {
-    //     console.log("August");
-    //   } else if (month === 8) {
-    //     console.log("September");
-    //   } else if (month === 9) {
-    //     console.log("October");
-    //   } else if (month === 10) {
-    //     console.log("November");
-    //   } else if (month === 11) {
-    //     console.log("December");
-    //   } else {
-    //     console.log("Invalid month");
-    //   }
-      
-    //  console.log(month);
-    //   ................................Question no 03....................
-//     let time = new Date();
-//     let days = time.getDay();
+// console.log("🚀 ~ user:", user)
+// ==============================chapter no 31-34=========================
+// ...................Question no 01.......................
+// let time = new Date
+// console.log(time);
+// ......................Question no 02....................
+//  let time  = new Date()
+//  let month = time.getMonth()
+//  switch(month) {
+//     case 0:
+//       console.log("January");
+//       break;
+//     case 1:
+//       console.log("February");
+//       break;
+//     case 2:
+//       console.log("March");
+//       break;
+//     case 3:
+//       console.log("April");
+//       break;
+//     case 4:
+//       console.log("May");
+//       break;
+//     case 5:
+//       console.log("June");
+//       break;
+//     case 6:
+//       console.log("July");
+//       break;
+//     case 7:
+//       console.log("August");
+//       break;
+//     case 8:
+//       console.log("September");
+//       break;
+//     case 9:
+//       console.log("October");
+//       break;
+//     case 10:
+//       console.log("November");
+//       break;
+//     case 11:
+//       console.log("December");
+//       break;
+//     default:
+//       console.log("Invalid month");
+//   }
+//   console.log( "again");
+//   if (month === 0) {
+//     console.log("January");
+//   } else if (month === 1) {
+//     console.log("February");
+//   } else if (month === 2) {
+//     console.log("March");
+//   } else if (month === 3) {
+//     console.log("April");
+//   } else if (month === 4) {
+//     console.log("May");
+//   } else if (month === 5) {
+//     console.log("June");
+//   } else if (month === 6) {
+//     console.log("July");
+//   } else if (month === 7) {
+//     console.log("August");
+//   } else if (month === 8) {
+//     console.log("September");
+//   } else if (month === 9) {
+//     console.log("October");
+//   } else if (month === 10) {
+//     console.log("November");
+//   } else if (month === 11) {
+//     console.log("December");
+//   } else {
+//     console.log("Invalid month");
+//   }
 
-// if (days === 1) {
-//     console.log("Monday");  
+//  console.log(month);
+//   ................................Question no 03....................
+// let time = new Date();
+// let days = time.getDay();
+
+// if (days === 0) {
+//   console.log("Sunday");
+// } else if (days === 1) {
+//   console.log("Monday");
 // } else if (days === 2) {
-//     console.log("Tuesday"); 
+//   console.log("Tuesday");
 // } else if (days === 3) {
-//     console.log("Wednesday"); 
+//   console.log("Wednesday");
 // } else if (days === 4) {
-//     console.log("Thursday"); 
+//   console.log("Thursday");
 // } else if (days === 5) {
-//     console.log("Friday"); 
+//   console.log("Friday");
 // } else if (days === 6) {
-//     console.log("Saturday"); 
-// } else if (days === 7) {
-//     console.log("Sunday"); 
+//   console.log("Saturday");
 // }
-//     console.log(days);
+// console.log(days);
 // ......................Question no 04.....................
+// let time = new Date();
+// let days = time.getDay();
 
-    
-     
-     
-    
+// if (days === 0) {
+//   console.log("Sunday");
+//   console.log("its` fun day");
+// } else if (days === 1) {
+//   console.log("Monday");
+// } else if (days === 2) {
+//   console.log("Tuesday");
+// } else if (days === 3) {
+//   console.log("Wednesday");
+// } else if (days === 4) {
+//   console.log("Thursday");
+// } else if (days === 5) {
+//   console.log("Friday");
+// } else if (days === 6) {
+//   console.log("Saturday");
+//   console.log("its` fun day");
+// }
+// console.log(days);
+// .........................Question no 05.....................
+// let time = new Date();
+// let days = time.getDate();
+// let month = time.getMonth();
+// console.log(month);
 
-    
-   
-    
+// switch (month) {
+//   case 0:
+//     console.log("first");
+//     break;
+//   case 1:
+//     console.log("second");
+//     break;
+//   case 2:
+//     console.log("third");
+//     break;
+//   case 3:
+//     console.log("fourth");
+//     break;
+//   case 4:
+//     console.log("fifth");
+//     break;
+//   case 5:
+//     console.log("six");
+//     break;
+//   case 6:
+//     console.log("seven");
+//     break;
+//   case 7:
+//     console.log("eight");
+//     break;
+//   case 8:
+//     console.log("nine");
+//     break;
+//   case 9:
+//     console.log("ten");
+//     break;
+//   case 10:
+//     console.log("first first");
+//     break;
+//   case 11:
+//     console.log("first second");
+//     break;
+//   case 12:
+//     console.log("first thirteen");
+//   case 13:
+//     console.log("first fourteen");
+//   case 14:
+//     console.log("first fifteen");
+//   case 15:
+//     console.log("first sixteen");
+//   case 16:
+//     console.log("first seventeen");
+//   case 17:
+//     console.log("first eighteen");
+//   case 18:
+//     console.log("first nineteen");
+//   case 19:
+//     console.log("twenty");
+//   case 20:
+//     console.log("twenty first");
+//   case 21:
+//     console.log("twenty second");
+//   case 22:
+//     console.log("twenty third");
+//   case 23:
+//     console.log("twenty fourth");
+//   case 24:
+//     console.log("twenty fifth");
+//   case 25:
+//     console.log("twenty sixth");
+//   case 26:
+//     console.log("twenty seven");
+//   case 27:
+//     console.log("twenty eight");
+//   case 28:
+//     console.log("twenty nine");
+//   case 29:
+//     console.log("thirty");
 
-    
-    
-   
-    
- 
+//   default:
+//     console.log("Invalid date");
+// }
+// console.log(`${days} days of the  ${month}`);
+// ...............................Again Question no 05........................
+let time = new Date();
+let days = time.getDate();
+let month = time.getMonth();
+switch (days) {
+  case days <= 15:
+    console.log("first fifteen");
+f
+    break;
+  case days >= 16:
+    console.log("last days");
+    break;
+  case days > 31:
+    console.log("Invalid Date");
+    break;
+  default:
+    console.log("sorry! date is up");
+}
+
+// console.log(days, month);
