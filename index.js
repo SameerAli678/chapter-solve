@@ -858,23 +858,71 @@
 //     console.log("Invalid date");
 // }
 // console.log(`${days} days of the  ${month}`);
-// ...............................Again Question no 05........................
-let time = new Date();
-let days = time.getDate();
-let month = time.getMonth();
-switch (days) {
-  case days <= 15:
-    console.log("first fifteen");
-f
-    break;
-  case days >= 16:
-    console.log("last days");
-    break;
-  case days > 31:
-    console.log("Invalid Date");
-    break;
-  default:
-    console.log("sorry! date is up");
-}
+// ...............................Again and real Question no 05........................
+// let time = new Date();
+// let month = time.getMonth();
+// let days = time.getDate();
+// let days = 16;
+// console.log("🚀 ~  days:", days);
 
-// console.log(days, month);
+// if (days > 31) {
+//   console.log("🚀 ~ days:", "“Invalid date”");
+// } else if (days <= 15) {
+//   console.log("🚀 ~ days:", "“First fifteen days of the month”");
+// } else {
+//   console.log("🚀 ~ days:", " “Last days of the month”");
+
+// }
+// .........................Question no 06.......................
+// let year = new Date()
+// let month = year.getTime()
+// console.log("🚀 ~ month:", month)
+//  let a = new Date(milliseconds);
+//  console.log("🚀 ~ a:", a)
+// let sameer = new Date();
+// console.log("🚀 ~ sameer:", sameer);
+// let milliseconds =  sameer.getTime() ;
+//  console.log("🚀 ~ milliseconds :", milliseconds)
+//  let second =  milliseconds /1000
+//  console.log("🚀 ~ second:", second)
+//  let mints  = milliseconds/(1000 *60)
+//  console.log("🚀 ~ mints:", mints)
+// ........................Question no 07..................
+// let time = new Date();
+// console.log("🚀 ~  time :",  time )
+// let hours = time.getHours();
+// console.log("🚀 ~ hours :", hours);
+// let session = hours <= 11 ? " It`s AM" : "It`s PM";
+// console.log("🚀 ~ session:", session);
+// .......................Question no 13........................
+// let age = +prompt("");
+// let time = new Date();
+
+// let year = time.getFullYear();
+// console.log("🚀 ~ month :", year);
+
+// console.log("🚀 ~ age:", age);
+
+// console.log(("🚀 ~ brith year:", -age - -year);
+// ......................Question no 08.................
+// let laterDate = new Date();
+// console.log("🚀 ~ laterDate:", laterDate)
+
+// let specificDate = new Date('2024-11-13');
+// console.log(specificDate);
+
+// console.log(specificDate);
+//....................... Question no 14..........................
+// let customer = prompt("please enter your name ");
+// document.write(" Customer Name :", `${customer}`);
+// let month = prompt("month");
+// document.write(`<br> Current Month : ${month}`);
+// let unit = +prompt("your unit");
+// document.write(`<br> Number of units : ${unit}`);
+// let per_unit = 30;
+// document.write(`<br> Charges per unit : ${per_unit}`)
+// document.write(`<br> Net Amount Payable (within Due Date) : ${per_unit* unit}`)
+// let  Late_Payment_Surcharge = 310
+// document.write(`<br> Late_Payment_Surcharge : ${Late_Payment_Surcharge} `)
+// document.write(`<br> Late_Payment_Surcharge : ${Late_Payment_Surcharge+per_unit* unit }`)
+
