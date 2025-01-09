@@ -925,4 +925,7 @@
 // let  Late_Payment_Surcharge = 310
 // document.write(`<br> Late_Payment_Surcharge : ${Late_Payment_Surcharge} `)
 // document.write(`<br> Late_Payment_Surcharge : ${Late_Payment_Surcharge+per_unit* unit }`)
+// let user = prompt("enter")
+
+/* Rectangle 60 */
 
